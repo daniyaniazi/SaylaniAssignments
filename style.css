@@ -544,6 +544,91 @@ footer p{
         width: 100%;     
 
     }
+    .gallerysection{
+        height: max-content;
+    }
+    .imagegallery{
+        flex-wrap: wrap;
+        height: max-content;
+    }
+    .gallery{
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 2.5px;
+    }
+
+
+}
+@media screen and (max-width:600px){
+
+    .header2{
+        flex-wrap: wrap;   
+    }
+    .logo{
+       
+        flex-basis: 100%;
+        margin:0px;
+    }
+    .logo img{
+        display: block;
+        padding: 10px;
+        margin: 0 auto;
+        
+    }
+    /* .menubutton{
+        display: block;
+        flex-basis: 50%;
+        
+    }
+    label{
+        line-height: 80px;
+        text-align: right;
+        display: block;
+        cursor: pointer;
+    }
+    #toggle{
+        display: block;
+    } */
+
+    div.menu{
+        display: block; 
+        /* block to see style */
+        width: 100%;
+    }
+    nav.menulinks{
+        display: block;
+        width: 100%;
+    }
+    .menulinks ul{
+        display: block;
+        width: 100%;
+    }
+    .menulinks ul li {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        border-bottom: 1px solid #cecece;
+        padding: 2px 0px;
+    }
+    .menulinks ul li a{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        background-color: transparent;
+
+    }
+   #toggle:checked ~ div.menu{
+       transition: all 5s;
+        display: block;
+    }
+    #toggle:checked ~ nav.menulinks{
+        transition: all 5s;
+         display: block;
+     }
+     .paras{
+         text-align: justify;
+     }
 
 
 }
