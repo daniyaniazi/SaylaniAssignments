@@ -1,0 +1,20 @@
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: SlateBlue;
+}
+body{
+    margin: 30 auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;}
+table{
+    
+    background-color: SlateBlue;
+    text-align:left;
+    color: white;
+   
+   
+}
+
+
