@@ -62,6 +62,7 @@ html {
 .portimg {
     height: 150px;
 }
+
 @media screen and (max-width: 770px) {
     div.illustration {
         order: 1;
