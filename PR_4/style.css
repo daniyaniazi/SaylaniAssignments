@@ -1,0 +1,285 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+}
+html {
+    box-sizing: border-box;
+}
+
+/* NAV BAR */
+header {
+    background-color: black !important;
+}
+.navbar {
+    background-color: #0000009c;
+}
+.navbar-brand {
+    color: #ff000dbd !important;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 2px;
+}
+.nav-item:hover a {
+    color: #de9a01 !important;
+}
+
+/* NAV BAR */
+
+/* MAIN CONTENT */
+.main {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(26, 20, 20, 0.144)), url("images/main_bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.main-content {
+    position: absolute;
+    top: 25%;
+    box-sizing: border-box;
+    left: auto;
+}
+.welcome {
+    letter-spacing: 15px;
+    opacity: 0.9;
+    font-size: 75px;
+    margin-bottom: 1px;
+    color: #ff000da8;
+    ;
+}
+.brand-name {
+    letter-spacing: 18px;
+    opacity: 0.9;
+    font-size: 35px;
+    color: #de9a01;
+    font-weight: bolder;
+}
+.welcome-para {
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #bcbebe;
+}
+@media screen and (max-width:500px) {
+    .main-content {
+        position: absolute;
+        top: 15%;
+        box-sizing: border-box;
+    }
+    
+    .welcome {
+        letter-spacing: 10px;
+        opacity: 0.9;
+        font-size: 35px;
+    }
+    
+    .brand-name {
+        letter-spacing: 8px;
+        opacity: 0.9;
+        font-size: 20px;
+    }
+}
+
+/* MAIN CONTENT */
+
+/* FEATURE SECTION */
+.pop-item-head {
+    color: #de9a01;
+    font-weight: bolder;
+    border: 3px dotted rgba(255, 255, 255, 0.685);
+}
+.featured-items-section {
+    /* background-color: rgb(0, 0, 0); */
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(26, 20, 20, 0.144)), url("images/feature-bg.jpg");
+}
+.feature-container {
+    box-shadow: 3px 5px 11px 0px rgba(128, 110, 110, 0.63);
+    ;
+}
+.feature-col {
+    background-color: rgba(255, 238, 206, 0.98);
+    height: 350px;
+    overflow: hidden;
+    color: #00000098;
+}
+.feature-img-container img {
+    opacity: 0.95 !important;
+}
+.feature-img-container img:hover {
+    opacity: 1 !important;
+}
+.btn-menu {
+    color: white;
+    background-color: #ff000da8;
+}
+.faeture-name {
+    border-bottom: 2px solid #de9a01;
+    text-shadow: 2px 1px 7px rgb(133, 93, 0);
+    font-size: 34px;
+}
+
+/* FEATURE SECTION */
+
+/* FOOTER */
+.footer {
+    background-color: #de9c01c4;
+}
+.foot-heading {
+    color: black;
+}
+.foottext {
+    color: #2e1e1e
+}
+hr {
+    height: 2px;
+    color: black;
+}
+
+/* FOOTER */
+
+/* RESERVATION PAGE */
+.reserv-main {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(92, 86, 86, 0.25) 0%, rgba(0, 0, 0, 0.555) 100%), url("images/reservation.jpg");
+}
+.res-heading {
+    font-weight: bolder;
+    color: black;
+}
+.res-heading span {
+    color: #ff000dce;
+}
+input {
+    background-color: transparent !important;
+    border: none !important;
+    color: #fffffff5 !important;
+    outline: none !important;
+    border-bottom: 1px solid whitesmoke !important;
+}
+textarea {
+    background-color: transparent !important;
+    border: none !important;
+    color: #00000098 !important;
+    border-bottom: 1px solid whitesmoke !important;
+}
+
+/* RESERVATION PAGE */
+
+/* ABOUT */
+.about {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(92, 86, 86, 0.25) 0%, rgba(0, 0, 0, 0.555) 100%), url("images/about.jpg");
+}
+.feat-row {
+    background-color: rgba(255, 238, 206, 0.704);
+    height: max-content;
+    overflow: hidden;
+    border: 0.2px solid black;
+    border-radius: 5px;
+}
+.about h1 {
+    font-weight: bolder;
+    color: #de9a01;
+    letter-spacing: 5px;
+    font-size: 30%px;
+}
+.feat-img {
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+.feat-text h1 {
+    color: #e0101bc5;
+    border-bottom: 1px solid #de9a01;
+}
+@media screen and (max-width: 600px) {
+    .about h1 {
+        font-weight: bolder;
+        /* color: #de9a01; */
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+}
+
+/* ABOUT */
+
+/* contact us */
+.cr-row {
+    height: max-content;
+    overflow: hidden;
+}
+.menu h1 {
+    font-weight: bolder;
+    color: #de9a01;
+    letter-spacing: 5px;
+    font-size: 30%px;
+}
+
+/* contact us */
+
+/* MENU */
+.menu-container {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(31, 31, 31, 0.911) 0%, rgba(0, 0, 0, 0.774) 100%), url("images/menu_bg.jpg");
+}
+.burger-container {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(31, 31, 31, 0.911) 0%, rgba(0, 0, 0, 0.774) 100%), url("images/burger_bg.jpg");
+}
+.pizza-container {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(31, 31, 31, 0.911) 0%, rgba(0, 0, 0, 0.774) 100%), url("images/pizza_bg.jpg");
+}
+.pasta-container {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(31, 31, 31, 0.911) 0%, rgba(0, 0, 0, 0.774) 100%), url("images/pasta_bg.jpg");
+}
+
+/* .img-menu {
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+} */

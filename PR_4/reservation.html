@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVATION</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class=" text-light">
+        <div class="container  p-0 text-light">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">
+                    <img src="images/burger_ill.png" alt="Logo" style="width:40px;"> FOOD CORNER
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                    <ul class="navbar-nav  ml-auto mr-5">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid reserv-main py-5 px-3">
+            <h1 class="text-left text-light res-heading ml-5 ">BOOK YOUR <span class="highlight">RESERVATION</span> </h1>
+            <div class="row py-5">
+                <div class="col-md-4 form">
+                    <div class="res-form px-5 py-1">
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <!-- <label for="uname">Username:</label> -->
+                                <input type="text" class="form-control" id="uname" placeholder="Enter Name" name="uname" required>
+
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="pwd">Password:</label> -->
+                                <input type="date" class="form-control" id="date" placeholder="Enter Date" name="date" required>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 form">
+                    <div class="res-form px-5 py-1 ">
+                        <form action="/action_page.php">
+
+                            <div class="form-group">
+                                <!-- <label for="pwd">Password:</label> -->
+                                <input type="number" class="form-control" id="num" placeholder="Enter Phone Number" name="num" required>
+
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="pwd">Password:</label> -->
+                                <input type="time" class="form-control" id="time" placeholder="Enter Time" name="time" required>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="res-form px-5 py-1">
+                        <form action="/action_page.php">
+
+                            <div class="form-group">
+                                <!-- <label for="pwd">Password:</label> -->
+                                <input type="number" class="form-control" id="num-peop" placeholder="Enter No Of People" name="num-peop" required>
+
+                            </div>
+                            <div class="form-group">
+                                <label class="text-light" for="comment">Comment:</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                            <button class="btn btn-dark">CONFIRM RESGISTRATION</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="container-fluid footer d-flex justify-content-center align-items-center p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class=" foot-heading ">LOCATION</h3>
+                        <hr>
+                        <p class="foottext">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, exercitationem! Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class=" foot-heading ">CONTACT US</h3>
+                        <hr>
+                        <p class="foottext">
+                            <P><i class="fas fa-phone-square-alt p-2 icons "></i>03322386273</P>
+                            <p><i class="fas fa-envelope-square p-2 icons "></i>farihadania@hotmail.com</p>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class=" foot-heading ">FOLLOW US</h3>
+                        <hr>
+                        <p class="foottext">
+                            <P><i class="fab fa-facebook p-2 text-dark "></i>
+                                <i class=" fab fa-instagram p-2 text-dark "></i> <i class=" 	fab fa-google-plus p-2 text-dark "></i> <i class=" fab fa-linkedin p-2 text-dark "></i></P>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/2663d9b504.js " crossorigin="anonymous "></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
